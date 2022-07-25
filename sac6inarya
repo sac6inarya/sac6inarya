@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sa6inarya.com</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: #efefef;
+        }
+
+        .section{
+            background-color:#fff;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            padding: 15px;
+        }
+        
+        #header{
+            background-image: url("https://images.pexels.com/photos/6985003/pexels-photo-6985003.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+            font-size: 25px;
+            color:black;
+            text-align: center;
+            border-radius: 10px;
+            padding: 20px;
+            background-size: cover;
+        }
+
+        .circle-img{
+            border: 2px solid white;
+            border-radius: 50%;
+            width: 125px;
+
+        }
+
+        h2 span{
+            border: 2px solid rgb(64, 173, 247);
+            border-radius: 5px;
+            padding: 5px;
+            color:black;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        li{
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .fa{
+            padding: 25px;
+            margin: 10px;
+            text-decoration: none;
+            color: white;
+            background-color: black;
+            border-radius: 10px;
+        }
+
+        .fa-twitter{
+            background-color: rgb(28, 156, 241);
+        }
+        .fa-instagram{
+            background-color: rgb(231, 107, 107);
+        }
+        .fa-github{
+            background-color: rgb(0, 0, 0);
+        }
+        .fa-linkedin{
+            background-color: rgb(46, 150, 219);
+        }
+
+        .fa:hover{
+            opacity: 0.75;
+        }
+
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--header section-->
+    <div id="header" class="section">
+        <img src="https://api.sololearn.com/Uploads/Avatars/15520487.jpg" alt="img" class="circle-img">
+        <h2>Sachin Arya</h2>
+        <p>Aspiring Software Engineer</p>
+       
+    </div>
+
+    <div class="section">
+        <!--about section-->
+        <h2><span>About Me</span></h2>
+        <p>Hey Dear ! <br/><br/><br/>
+        I am <strong>Sachin Arya</strong> .  I am an engineering
+        student who loves programming. 
+    At present my skills are front-end web development & web designing.
+    <br/><br/>Curruntly I am 
+working on my backend web development skill so that I can work for you 
+as a  full stack developer. </p>
+    </div>
+
+    <!--skills-->
+    <div id="skills " class="section">
+     <h2><span>My Skills</span></h2>   
+
+     <ul>
+        <li>HTML<br/><progress min="0" max="100" value="95"></progress></li>
+        <li>CSS<br/><progress min="0" max="100" value="85"></progress></li>
+        <li>JS<br/><progress min="0" max="100" value="75"></progress></li>
+        <li>React<br/><progress min="0" max="100" value="60"></progress></li>
+        <li>NodeJS<br/><progress min="0" max="100" value="50"></progress></li>
+        <li>MogoDB<br/><progress min="0" max="100" value="30"></progress></li>
+    </ul>
+
+
+    </div>
+
+    <!--projects-->
+    <div id="projects" class="section">
+        <h2><span>My Projects</span></h2>
+
+        <p>Have patience !  Working on it !</p>
+
+    </div>
+    
+
+    <!--contact-->
+    <div id="contact" class="section">
+        <h2><span>Contact Me</span></h2>
+        <div style="text-align: center;">
+        <a href="https://twitter.com/ssachinaryaa" target="_blank" class="fa fa-twitter"></a> 
+
+        <a href="https://instagram.com/ssachinaryaa" target="_blank" class="fa fa-instagram"></a>
+
+        <a href="https://github.com/ssachinaryaa" target="_blank" class="fa fa-github"></a>
+
+        <a href="https://linkedin.com//sachin-arya-55b8a9199" target="_blank" class="fa fa-linkedin"></a>
+    </div>
+</body>
+</html>
